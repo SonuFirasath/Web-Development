@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>specificity</title>
+    <style>
+      h1 {
+        color: greenyellow;
+      }
+      .yellow {
+        color: yellow;
+      }
+      #hlo {
+        color: blue;
+      }
+      .cred {
+        color: red;
+      }
+      .cpurple {
+        color: purple;
+      }
+      [data-x="a"] {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 id="hlo" class="yellow cred cpurple" data-x="a">CSS specificity</h1>
+    </div>
+  </body>
+</html>
+
+<!--If the css is added inline then it is most specific and then id is most specific then class and finally at last other -->

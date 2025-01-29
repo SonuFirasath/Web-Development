@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css imp class</title>
+    <style>
+      .red {
+        /* Element selector */
+        background-color: red;
+      }
+      #green {
+        /* id selector */
+        background-color: green;
+      }
+
+      /* child selector */
+      div > p {
+        color: white;
+        background-color: black;
+      }
+      /* decendent selector */
+
+      div p {
+        color: whitesmoke;
+        background-color: blue;
+      }
+      /* Universal selector */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* pseudo Selector */
+      a:visited {
+        color: red;
+      }
+      a:link {
+        color: green;
+      }
+      a:active {
+        color: blue;
+        background-color: black;
+      }
+      a:hover {
+        color: yellow;
+        background-color: grey;
+      }
+      p:first-child{
+        color: red;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- class selector -->
+    <div class="one">
+      <p>I am first child.</p>
+      <p>i am second child.</p>
+    </div>
+    <div class="red">
+      i am div
+
+      <span>
+        <p>i am a paragraph</p>
+      </span>
+    </div>
+    <div id="green">i am another div</div>
+    <a href="https://google.com">Go to google</a>
+    <a href="https://facebook.com">Go to facebook</a>
+  </body>
+</html>
