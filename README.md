@@ -34,7 +34,6 @@ I'm a passionate software developer with a keen interest in web development, mac
 
 - Email: sonufirasath201@gmail.com
 - LinkedIn: https://www.linkedin.com/feed/
-- Twitter: [your-twitter](https://twitter.com/your-twitter)
 
 ## 📝 Latest Blog Posts
 
