@@ -33,7 +33,7 @@ I'm a passionate software developer with a keen interest in web development, mac
 ## 📫 How to reach me
 
 - Email: sonufirasath201@gmail.com
-- LinkedIn: https://www.linkedin.com/feed/
+- LinkedIn: www.linkedin.com/in/sonu-firasath-580568234
 
 ## 📝 Latest Blog Posts
 
