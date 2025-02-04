@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: [pehla]120px [dusra]100px [tesra];
+            grid-template-rows: [pehla]100px [dusra]100px [tesra]100px;
+        }
+        .item{
+            border: 2px solid red;
+            height: 55px;
+            width: 55px;
+        }
+        .item4{
+            grid-row: pehla/dusra;
+            grid-column: pehla/dusra;
+        }
+        /* .item1{
+            grid-row: 1/2;
+            grid-column: 1/2;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item item4">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html>
