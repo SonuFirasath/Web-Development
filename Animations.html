@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Animations</title>
+    <style>
+        .container{
+            background-color: rgb(251, 0, 255);
+            height: 80vh;
+            width: 30vw;
+        }
+        .box{
+            height: 45px;
+            width: 34px;
+            background-color: aqua;
+            animation: Sonu-ka-anime 3s ease-in-out 2s infinite alternate-reverse ,
+                        sonu2 3s ease-in-out 2s infinite alternate-reverse ;
+        }
+        @keyframes Sonu-ka-anime{
+            from{
+            
+                background-color: red;
+            }
+            to{
+                transform: translateX(1000px);
+                background-color: yellow;
+            }
+        }
+        @keyframes sonu2{
+            0%{
+                transform: rotate(90deg);
+            }
+            30%{
+                transform: rotate(140deg);
+            }
+            50%{
+                transform: rotate(200deg);
+            }
+            75%{
+                transform: rotate(290deg);
+            }
+            100%{
+                transform: rotate(300deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>
