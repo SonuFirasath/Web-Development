@@ -1,4 +1,4 @@
-# Hi there, I'm Sonu Firasath! 👋
+# Hi there, I'm F G Firasath! 👋
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SonuFirasath)
 
@@ -9,7 +9,8 @@ I'm a passionate software developer with a keen interest in web development, mac
 - 🌱 I’m currently learning advanced algorithms and machine learning techniques.
 - 👯 I’m looking to collaborate on interesting open-source projects.
 - 💬 Ask me about web development, Python, and JavaScript.
-- 📫 How to reach me: [Email](mailto:your-email@example.com) | [LinkedIn](https://www.linkedin.com/in/your-linkedin)
+- 📫 How to reach me: sonufirasath201@gmail.com | [LinkedIn](https://www.linkedin.com/in/f-g-firasath-580568234/?trk=public-profile-join-page
+)
 
 ## 🛠️ Technologies & Tools
 
