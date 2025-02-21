@@ -35,12 +35,3 @@ I'm a passionate software developer with a keen interest in web development, mac
 
 - Email: sonufirasath201@gmail.com
 - LinkedIn: https://www.linkedin.com/in/f-g-firasath-580568234/?trk=public-profile-join-page
-
-## 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
-<!--
-**SonuFirasath/SonuFirasath** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
