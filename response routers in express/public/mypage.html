@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing post request</title>
+</head>
+<body>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab quam temporibus non exercitationem adipisci molestias incidunt modi dolorum voluptates fugit, nihil obcaecati alias sit deleniti porro, fugiat assumenda delectus quo qui beatae ipsam quas! Quis vitae eius iusto facilis suscipit eum debitis illum, perspiciatis placeat accusantium libero molestiae, optio deserunt eaque alias similique a, veniam totam. Corrupti saepe provident, architecto reiciendis quos alias voluptates deserunt iste asperiores placeat nisi quod ea veniam, rerum quam quisquam sunt velit quis veritatis. Ex et quidem, dicta aliquid repudiandae blanditiis aspernatur dolorum?
+    </div>
+
+    <script>
+        async function testpost() {
+            let a = await fetch("/",{method:"POST"});
+            let b = await a.text()
+            console.log(b);
+        }
+    </script>
+</body>
+</html>
