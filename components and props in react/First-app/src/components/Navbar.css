@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    color: white;
+}
+
+nav,ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+ul{
+    list-style: none;
+    gap: 34px;
+}
+nav{
+    background-color: red;
+    padding: 5px;
+}
